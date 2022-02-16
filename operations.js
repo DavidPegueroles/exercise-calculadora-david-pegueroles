@@ -1,5 +1,5 @@
 const chalk = require("chalk");
-const debug = require("debug")("calculator:index");
+const debug = require("debug")("calculator:operations");
 
 const operations = (a, b) => {
   debug(
