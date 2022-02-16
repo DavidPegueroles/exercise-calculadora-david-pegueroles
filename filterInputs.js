@@ -19,4 +19,4 @@ const filterInputs = () => {
   }
 };
 
-module.exports = filterInputs();
+module.exports = filterInputs;
