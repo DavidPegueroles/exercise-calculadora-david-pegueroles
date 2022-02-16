@@ -8,7 +8,7 @@ const receivedNumbersString = require("./userInputs");
 const filterInputs = () => {
   if (
     typeof receivedNumbersString.aNumber === "undefined" &&
-    typeof receivedNumbersString.aNumber === "undefined"
+    typeof receivedNumbersString.bNumber === "undefined"
   ) {
     promptInputs();
   } else if (!isNaN(aNumber) && !isNaN(bNumber)) {
